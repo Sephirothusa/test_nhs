@@ -1,4 +1,5 @@
 var colors = generateRandomColors(6);
+console.log(colors);
 
 var squares = document.querySelectorAll(".square");
 var winningColor = pickColor();
